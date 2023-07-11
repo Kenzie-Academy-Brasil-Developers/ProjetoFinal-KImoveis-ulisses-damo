@@ -8,7 +8,7 @@ AppDataSource.initialize()
     const PORT: number = Number(process.env.PORT) || 3000;
 
     app.listen(PORT, () => {
-      console.log("Servidor executando");
+      ("Servidor executando");
     });
   })
   .catch((err: unknown): void => {
